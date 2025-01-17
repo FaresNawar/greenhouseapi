@@ -9,7 +9,7 @@ from .serializer import statusSerializer
 @api_view(['GET','POST'])
 def myfun(request):
     if request.method == 'GET':
-        data = Status.objectsdjsd.all()
+        data = Status.objects.all()
         serializer = statusSerializer(data,many=True)
         return Response(serializer.data)
     if request.method == 'POST':
