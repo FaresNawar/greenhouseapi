@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-a46^u6=^-wlga2iqtxg_=_*d$x3546tv-ii*ui!7-gt+bh%c1q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://greenhouseapi-production.up.railway.app/']
-CSRF_TRUSTED_ORIGINS = ['greenhouseapi-production.up.railway.app/']
+ALLOWED_HOSTS = ['greenhouseapi-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://greenhouseapi-production.up.railway.app/']
 
 WSGI_APPLICATION='florai.wsgi.app'
 # Application definition
