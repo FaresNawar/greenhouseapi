@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-a46^u6=^-wlga2iqtxg_=_*d$x3546tv-ii*ui!7-gt+bh%c1q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['greenhouseapi-production.up.railway.app', 'localhost', 'http://127.0.0.1', 'greenhouseapi-production-8080.up.railway.app']
 CSRF_TRUSTED_ORIGINS = ['https://greenhouseapi-production.up.railway.app', 'https://greenhouseapi-production-8080.up.railway.app']
